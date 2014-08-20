@@ -11,9 +11,6 @@ grunt.initConfig({
         license: './license.txt',
         version: '<%= pkg.version %>',
         src: './index.html',
-        ignores: [
-            './variables.less'
-        ],
         dest: [
             './out.ts'
         ]
