@@ -1,29 +1,30 @@
 {
-  "name": "grunt-less-bundle",
-  "version": "0.0.0",
-  "description": "A grunt task for running less-bundle",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/m-s-morgan/grunt-less-bundle.git"
-  },
-  "keywords": [
-    "grunt",
-    "ts",
-    "bundle"
-  ],
-  "author": {
-    "name": "Matt Morgan",
-    "url": "https://github.com/m-s-morgan"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/m-s-morgan/grunt-less-bundle/issues"
-  },
-  "homepage": "https://github.com/m-s-morgan/grunt-less-bundle",
-  "dependencies": {
-  }
+    "name": "grunt-less-bundle",
+    "version": "0.0.0",
+    "description": "A grunt task for running less-bundle",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/m-s-morgan/grunt-less-bundle.git"
+    },
+    "keywords": [
+        "grunt",
+        "less",
+        "bundle"
+    ],
+    "author": {
+        "name": "Matt Morgan",
+        "url": "https://github.com/m-s-morgan"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/m-s-morgan/grunt-less-bundle/issues"
+    },
+    "homepage": "https://github.com/m-s-morgan/grunt-less-bundle",
+    "dependencies": {
+        "less-bundle": "0.0.1"
+    }
 }
