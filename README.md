@@ -10,9 +10,9 @@ grunt.initConfig({
     main: {
         license: './license.txt',
         version: '<%= pkg.version %>',
-        src: './index.html',
+        src: './main.less',
         dest: [
-            './out.ts'
+            './out.less'
         ]
     }
   },
